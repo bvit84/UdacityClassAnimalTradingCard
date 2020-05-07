@@ -1,0 +1,50 @@
+/* add your CSS here */
+.italicized{
+    font-style: italic;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+li span {
+    font-weight: bold;
+}
+.bordered{
+    border: 1px solid goldenrod;
+}
+.padded15{
+    padding: 15px;
+}
+.margined15{
+    margin: 15px;
+}
+.demargined{
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    margin-bottom: 15px;
+}
+/* removes descenders gap */
+div{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+.widthed300{
+    width: 300px;
+}
+.widthed275{
+    width: 275px;
+}
+/* google provided font effect */
+#font-effect-fire-animation{
+    font-family: Roboto, sans-serif;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-name: font-effect-fire-animation-keyframes;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    color: orangered;
+}
